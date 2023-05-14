@@ -1,13 +1,14 @@
-<!DOCTYPE html><html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto Pokémon</title>
 
-    <link rel="stylesheet" href="src/scrollbar.css">
-    <link rel="stylesheet" href="src/style.css" />
-    <link rel="stylesheet" href="src/reset.css" />
+    <link rel="stylesheet" href="src/css/scrollbar.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet" />
@@ -17,7 +18,7 @@
       <a href="#">
         <img src="src/images/pokeball.png" alt="pokebola" class="logo" />
       </a>
-      <button id="botao-alterar-tema">
+      <button id="botao-alterar-tema" onclick="trocarTema()">
         <img src="src/images/sun.png" alt="imagem do sol" class="imagem-botao" />
       </button>
     </header>
@@ -176,5 +177,6 @@
         </li>
       </ul>
     </main>
+    <script src="src/js/index.js"></script>
   </body>
 </html>
