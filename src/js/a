@@ -4,12 +4,12 @@ const imagemBotaoAlterarTema = document.querySelector(".imagem-botao");
 
 function trocarTema() {
     const modoEscuroAtivo = body.classList.contains("modo-escuro");
-
+    
     body.classList.toggle("modo-escuro")
 
-    if (modoEscuroAtivo) {
-        imagemBotaoAlterarTema.setAttribute("src", "src/images/sun.png");
+    if(modoEscuroAtivo) {
+        imagemBotaoAlterarTema.setAttribute("src", "./src/images/sun.png");
     } else {
-        imagemBotaoAlterarTema.setAttribute("src", "src/images/moon.png");
+        imagemBotaoAlterarTema.setAttribute("src", "./src/images/moon.png");
     }
 };
