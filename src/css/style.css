@@ -74,6 +74,7 @@ main .cartao-pokemon .informacoes {
   border-radius: 10px;
 
 }
+
 body.modo-escuro .cartao-pokemon .informacoes {
   border: 1px solid #ffffff;
 
