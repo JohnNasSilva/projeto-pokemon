@@ -1,5 +1,9 @@
 body {
-  background: url(/src/images/wallpapaer-day.jpg) fixed no-repeat center / cover;
+  background-image: url(/src/images/wallpapaer-day.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
   max-width: 1280px;
