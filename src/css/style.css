@@ -52,7 +52,7 @@ main .listagem-pokemon {
 }
 
 main .cartao-pokemon {
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
 
   width: 200px;
   padding: 15px;
@@ -61,11 +61,14 @@ main .cartao-pokemon {
   align-items: center;
   gap: 15px;
   border-radius: 15px;
+  box-shadow: #0000003e 0px 0px 1px 4px;
+  transition: .15s;
 }
 
 main .cartao-pokemon:hover {
   filter: brightness(1.15);
   transform: scale(1.05);
+
 }
 
 main .cartao-pokemon .informacoes {
@@ -112,8 +115,9 @@ main .cartao-pokemon .tipo {
   background-color: hsla(221, 100%, 50%, 0.35);
 }
 .inseto {
-  background-color: hsla(67, 100%, 50%, 0.35);
+  background-color: hsla(55, 100%, 50%, 0.35);
 }
+
 
 main .cartao-pokemon .descricao {
   max-height: 80px;
@@ -121,12 +125,4 @@ main .cartao-pokemon .descricao {
   font-size: 0.9em;
   font-weight: 600;
   padding-right: 10px;
-  text-shadow: white 1px 0px, white 0px 1px, white -1px 0px, white 0px -1px;
-}
-body.modo-escuro .cartao-pokemon .descricao {
-  text-shadow: 
-  rgb(0, 0, 0) 1px 0px, 
-  rgb(0, 0, 0) 0px 1px, 
-  rgb(0, 0, 0) -1px 0px, 
-  rgb(0, 0, 0) 0px -1px;
 }
